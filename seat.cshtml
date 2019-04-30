@@ -1,0 +1,172 @@
+﻿<html>
+<head>
+    <title>
+
+    </title>
+   <style>
+       * {
+           margin: 0;
+           padding: 0;
+       }
+
+       .seat {
+           float: left;
+           display: block;
+           margin: 5px;
+           background: #4CAF50;
+           width: 40px;
+           height: 40px;
+           text-align:center;
+          
+       }
+
+       .seat-select {
+           display: none;
+       }
+
+           .seat-select:checked + .seat {
+               background: #F44336;
+           }
+   </style>
+
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <h3>Please Book your Seat...</h3>
+    <form id="reservation" method="post" action="" >
+        <table id="seat">
+            <tr>
+                <td>
+                    <input id="seat-1" class="seat-select" type="checkbox" value="1" name="seat[]" />
+                    <label for="seat-1" class="seat">1</label>
+                </td>
+
+                <td>
+                    <input id="seat-2" class="seat-select" type="checkbox" value="2" name="seat[]" />
+                    <label for="seat-2" class="seat">2</label>
+                </td>
+                <td></td>
+                <td>
+                    <input id="seat-3" class="seat-select" type="checkbox" value="3" name="seat[]" />
+                    <label for="seat-3" class="seat">3</label>
+                </td>
+
+
+                <td>
+                    <input id="seat-4" class="seat-select" type="checkbox" value="4" name="seat[]" />
+                    <label for="seat-4" class="seat">4</label>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <input id="seat-5" class="seat-select" type="checkbox" value="5" name="seat[]" />
+                    <label for="seat-5" class="seat">5</label>
+                </td>
+
+                <td>
+                    <input id="seat-6" class="seat-select" type="checkbox" value="6" name="seat[]" />
+                    <label for="seat-6" class="seat">6</label>
+                </td>
+
+                <td> </td>
+
+                <td>
+                    <input id="seat-7" class="seat-select" type="checkbox" value="7" name="seat[]" />
+                    <label for="seat-7" class="seat">7</label>
+                </td>
+
+                <td>
+                    <input id="seat-8" class="seat-select" type="checkbox" value="8" name="seat[]" />
+                    <label for="seat-8" class="seat">8</label>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <input id="seat-9" class="seat-select" type="checkbox" value="9" name="seat[]" />
+                    <label for="seat-9" class="seat">9</label>
+                </td>
+
+                <td>
+                    <input id="seat-10" class="seat-select" type="checkbox" value="10" name="seat[]" />
+                    <label for="seat-10" class="seat">10</label>
+                </td>
+
+
+                <td> </td>
+
+                <td>
+                    <input id="seat-11" class="seat-select" type="checkbox" value="11" name="seat[]" />
+                    <label for="seat-11" class="seat">11</label>
+                </td>
+
+                <td>
+                    <input id="seat-12" class="seat-select" type="checkbox" value="12" name="seat[]" />
+                    <label for="seat-12" class="seat">12</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input id="seat-13" class="seat-select" type="checkbox" value="13" name="seat[]" />
+                    <label for="seat-13" class="seat">13</label>
+                </td>
+
+                <td>
+                    <input id="seat-14" class="seat-select" type="checkbox" value="14" name="seat[]" />
+                    <label for="seat-14" class="seat">14</label>
+                </td>
+
+                <td> &nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                <td>
+                    <input id="seat-15" class="seat-select" type="checkbox" value="15" name="seat[]" />
+                    <label for="seat-15" class="seat">15</label>
+                </td>
+
+                <td>
+                    <input id="seat-16" class="seat-select" type="checkbox" value="16" name="seat[]" />
+                    <label for="seat-16" class="seat">16</label>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <input id="seat-17" class="seat-select" type="checkbox" value="17" name="seat[]" />
+                    <label for="seat-17" class="seat">17</label>
+                </td>
+
+                <td>
+                    <input id="seat-18" class="seat-select" type="checkbox" value="18" name="seat[]" />
+                    <label for="seat-18" class="seat">18</label>
+                </td>
+
+                <td> &nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                <td>
+                    <input id="seat-19" class="seat-select" type="checkbox" value="19" name="seat[]" />
+                    <label for="seat-19" class="seat">19</label>
+                </td>
+
+                <td>
+                    <input id="seat-20" class="seat-select" type="checkbox" value="20" name="seat[]" />
+                    <label for="seat-20" class="seat">20</label>
+                </td>
+
+            </tr>
+        </table>
+        <br />
+        <input type="submit" value="Book Ticket" class="btn btn-primary" />
+    </form>
+
+
+    
+</body>
+</html>
